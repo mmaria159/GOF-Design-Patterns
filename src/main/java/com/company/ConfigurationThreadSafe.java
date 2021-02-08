@@ -5,10 +5,12 @@ import java.util.HashMap;
 import java.util.ResourceBundle;
 
 public class ConfigurationThreadSafe {
-    private static ConfigurationThreadSafe instance = null;
+    private static ConfigurationThreadSafe instance;
     private static HashMap<String, String> hmap = new HashMap<String, String>();
+    public static int counter = 0;
 
     private ConfigurationThreadSafe() {
+        counter++;
     }
 
     public static synchronized ConfigurationThreadSafe getInstance() {

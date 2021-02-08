@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50f562dd-0655-437b-b158-bca2111e896a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/ConfigurationDoubleCheckedLocking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/ConfigurationThreadSafe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/singletonExemple.iws" beforeDir="false" afterPath="$PROJECT_DIR$/singletonExemple.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/ConfigurationDoubleCheckedLocking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/ConfigurationDoubleCheckedLocking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/ConfigurationThreadSafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/ConfigurationThreadSafe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/Configuration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Configuration.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Main.class" afterDir="false" />
@@ -108,6 +107,7 @@
       <workItem from="1612466705947" duration="1709000" />
       <workItem from="1612556285592" duration="2556000" />
       <workItem from="1612612911879" duration="13034000" />
+      <workItem from="1612734250569" duration="4534000" />
     </task>
     <task id="LOCAL-00001" summary="am adaugat exemplu">
       <created>1612165688954</created>
@@ -116,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612165688954</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="am adaugat doua implementari noi">
+      <created>1612734404431</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1612734404431</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +144,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="am adaugat exemplu" />
-    <option name="LAST_COMMIT_MESSAGE" value="am adaugat exemplu" />
+    <MESSAGE value="am adaugat doua implementari noi" />
+    <option name="LAST_COMMIT_MESSAGE" value="am adaugat doua implementari noi" />
   </component>
 </project>

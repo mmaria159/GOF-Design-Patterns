@@ -3,7 +3,7 @@ package com.company;
 import java.util.*;
 
 public class Configuration {
-    private static Configuration instance = null;
+    private static Configuration instance;
     private static HashMap<String, String> hmap = new HashMap<String, String>();
     public static  int counter = 0;
 

@@ -5,10 +5,12 @@ import java.util.HashMap;
 import java.util.ResourceBundle;
 
 public class ConfigurationDoubleCheckedLocking {
-    private static ConfigurationDoubleCheckedLocking instance = null;
+    private static volatile ConfigurationDoubleCheckedLocking instance;
     private static HashMap<String, String> hmap = new HashMap<String, String>();
+    public static  int counter = 0;
 
     private ConfigurationDoubleCheckedLocking() {
+        counter++;
     }
 
     public static ConfigurationDoubleCheckedLocking getInstance() {
