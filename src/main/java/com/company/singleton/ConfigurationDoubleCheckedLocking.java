@@ -1,21 +1,25 @@
-package com.company;
+package com.company.singleton;
 
 import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.ResourceBundle;
 
-public class ConfigurationThreadSafe {
-    private static ConfigurationThreadSafe instance;
+public class ConfigurationDoubleCheckedLocking {
+    private static volatile ConfigurationDoubleCheckedLocking instance;
     private static HashMap<String, String> hmap = new HashMap<String, String>();
-    public static int counter = 0;
+    public static  int counter = 0;
 
-    private ConfigurationThreadSafe() {
+    private ConfigurationDoubleCheckedLocking() {
         counter++;
     }
 
-    public static synchronized ConfigurationThreadSafe getInstance() {
+    public static ConfigurationDoubleCheckedLocking getInstance() {
         if (instance == null) {
-            instance = new ConfigurationThreadSafe();
+            synchronized (ConfigurationDoubleCheckedLocking.class) {
+                if (instance == null) {
+                    instance = new ConfigurationDoubleCheckedLocking();
+                }
+            }
             readProperties();
         }
         return instance;
@@ -34,3 +38,4 @@ public class ConfigurationThreadSafe {
         return hmap.get(propertyName);
     }
 }
+

@@ -1,25 +1,19 @@
-package com.company;
+package com.company.singleton;
 
-import java.util.Enumeration;
-import java.util.HashMap;
-import java.util.ResourceBundle;
+import java.util.*;
 
-public class ConfigurationDoubleCheckedLocking {
-    private static volatile ConfigurationDoubleCheckedLocking instance;
+public class Configuration {
+    private static Configuration instance;
     private static HashMap<String, String> hmap = new HashMap<String, String>();
-    public static  int counter = 0;
+    public static int counter = 0;
 
-    private ConfigurationDoubleCheckedLocking() {
+    private Configuration() {
         counter++;
     }
 
-    public static ConfigurationDoubleCheckedLocking getInstance() {
+    public static Configuration getInstance() {
         if (instance == null) {
-            synchronized (ConfigurationDoubleCheckedLocking.class) {
-                if (instance == null) {
-                    instance = new ConfigurationDoubleCheckedLocking();
-                }
-            }
+            instance = new Configuration();
             readProperties();
         }
         return instance;
@@ -37,5 +31,17 @@ public class ConfigurationDoubleCheckedLocking {
     public String getProperty(String propertyName) {
         return hmap.get(propertyName);
     }
+
+    public String getEmailUser() {
+        return getProperty("email.user");
+    }
+
+    public String getEmailPwd() {
+        final String encodedPwd = getProperty("email.pwd");
+        final String password = new String(Base64.getDecoder().decode(encodedPwd));
+        return password;
+    }
+
+
 }
 

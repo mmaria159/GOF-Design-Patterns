@@ -1,19 +1,21 @@
-package com.company;
+package com.company.singleton;
 
-import java.util.*;
+import java.util.Enumeration;
+import java.util.HashMap;
+import java.util.ResourceBundle;
 
-public class Configuration {
-    private static Configuration instance;
+public class ConfigurationThreadSafe {
+    private static ConfigurationThreadSafe instance;
     private static HashMap<String, String> hmap = new HashMap<String, String>();
-    public static  int counter = 0;
+    public static int counter = 0;
 
-    private Configuration() {
+    private ConfigurationThreadSafe() {
         counter++;
     }
 
-    public static Configuration getInstance() {
+    public static synchronized ConfigurationThreadSafe getInstance() {
         if (instance == null) {
-            instance = new Configuration();
+            instance = new ConfigurationThreadSafe();
             readProperties();
         }
         return instance;
@@ -23,7 +25,7 @@ public class Configuration {
         ResourceBundle rb = ResourceBundle.getBundle("config");
         Enumeration<String> keys = rb.getKeys();
         while (keys.hasMoreElements()) {
-             String key = keys.nextElement();
+            String key = keys.nextElement();
             hmap.put(key, rb.getString(key));
         }
     }
@@ -32,4 +34,3 @@ public class Configuration {
         return hmap.get(propertyName);
     }
 }
-
