@@ -1,45 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50f562dd-0655-437b-b158-bca2111e896a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/abstractfactory/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/abstractfactory/DarkUIFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/abstractfactory/LightUIFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/abstractfactory/UIFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/abstractfactory/button/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/abstractfactory/button/DarkButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/abstractfactory/button/LightButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/abstractfactory/textbox/DarkTextBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/abstractfactory/textbox/LightTexBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/abstractfactory/textbox/TextBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/builder/Email.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/builder/FluentEmailBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/builder/MailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/builder/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/factory/BonusReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/factory/ClientReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/factory/IncomeReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/factory/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/factory/ProductionReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/factory/Report.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/factory/ReportFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/prototype/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/prototype/Display.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/prototype/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/prototype/Samsung.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/prototype/SmartPhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/singletonExemple.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPatterns.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/singletonExemple.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/singletonExemple.ipr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/singletonExemple.iws" beforeDir="false" afterPath="$PROJECT_DIR$/singletonExemple.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/singleton/Configuration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/ConfigurationDoubleCheckedLocking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/singleton/ConfigurationDoubleCheckedLocking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/ConfigurationThreadSafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/singleton/ConfigurationThreadSafe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/singleton/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/Configuration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config.properties" afterDir="false" />
+    <list default="true" id="50f562dd-0655-437b-b158-bca2111e896a" name="Default Changelist" comment="I added implementation for abstract factory">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/abstractfactory/LightUIFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/abstractfactory/LightUIFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/abstractfactory/textbox/LightTexBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/abstractfactory/textbox/LightTextBox.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -281,7 +245,7 @@
       <workItem from="1614695204517" duration="69000" />
       <workItem from="1615201173891" duration="6825000" />
       <workItem from="1615276060208" duration="9908000" />
-      <workItem from="1615288935365" duration="2171000" />
+      <workItem from="1615288935365" duration="2948000" />
     </task>
     <task id="LOCAL-00001" summary="am adaugat exemplu">
       <created>1612165688954</created>
@@ -304,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612747082528</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="I added implementation for abstract factory">
+      <created>1615291269336</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615291269336</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,6 +297,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="am adaugat exemplu" />
     <MESSAGE value="am adaugat doua implementari noi" />
-    <option name="LAST_COMMIT_MESSAGE" value="am adaugat doua implementari noi" />
+    <MESSAGE value="I added implementation for abstract factory" />
+    <option name="LAST_COMMIT_MESSAGE" value="I added implementation for abstract factory" />
   </component>
 </project>
