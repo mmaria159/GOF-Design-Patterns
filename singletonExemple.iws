@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50f562dd-0655-437b-b158-bca2111e896a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/singletonExemple.iws" beforeDir="false" afterPath="$PROJECT_DIR$/singletonExemple.iws" afterDir="false" />
-    </list>
+    <list default="true" id="50f562dd-0655-437b-b158-bca2111e896a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,6 +244,7 @@
       <workItem from="1615276060208" duration="9908000" />
       <workItem from="1615288935365" duration="3607000" />
       <workItem from="1615298360142" duration="734000" />
+      <workItem from="1616055212624" duration="321000" />
     </task>
     <task id="LOCAL-00001" summary="am adaugat exemplu">
       <created>1612165688954</created>
@@ -282,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615292285046</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="I added implementation for abstract factory">
+      <created>1616055239327</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1616055239327</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
