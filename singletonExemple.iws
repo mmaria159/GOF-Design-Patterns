@@ -1,8 +1,166 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="50f562dd-0655-437b-b158-bca2111e896a" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="50f562dd-0655-437b-b158-bca2111e896a" name="Default Changelist" comment="I added implementation for Behavioral Patterns">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/behavioralpatterns/command/Fan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/behavioralpatterns/command/HomeAutomationRemote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/behavioralpatterns/command/ICommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/behavioralpatterns/command/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/behavioralpatterns/command/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/behavioralpatterns/command/StartFanCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/behavioralpatterns/command/StopFanCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/behavioralpatterns/command/TurnOffLightCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/behavioralpatterns/command/TurnOnLightCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/behavioralpatterns/mediator/ChatRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/behavioralpatterns/mediator/ChatUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/behavioralpatterns/mediator/IChatRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/behavioralpatterns/mediator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/behavioralpatterns/mediator/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/behavioralpatterns/memento/FileWriterCaretaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/behavioralpatterns/memento/FileWriterUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/behavioralpatterns/memento/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/behavioralpatterns/observer/Observable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/behavioralpatterns/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/behavioralpatterns/observer/ObserverTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/behavioralpatterns/observer/OnlineShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/behavioralpatterns/observer/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/creationalpatterns/abstractfactory/DarkUIFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/creationalpatterns/abstractfactory/LightUIFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/creationalpatterns/abstractfactory/UIFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/behavioralpatterns/command/Fan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/behavioralpatterns/command/HomeAutomationRemote.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/behavioralpatterns/command/ICommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/behavioralpatterns/command/Light.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/behavioralpatterns/command/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/behavioralpatterns/command/StartFanCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/behavioralpatterns/command/StopFanCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/behavioralpatterns/command/TurnOffLightCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/behavioralpatterns/command/TurnOnLightCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/behavioralpatterns/mediator/ChatRoom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/behavioralpatterns/mediator/ChatUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/behavioralpatterns/mediator/IChatRoom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/behavioralpatterns/mediator/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/behavioralpatterns/mediator/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/abstractfactory/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/abstractfactory/DarkUIFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/abstractfactory/LightUIFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/abstractfactory/UIFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/abstractfactory/button/Button.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/abstractfactory/button/DarkButton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/abstractfactory/button/LightButton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/abstractfactory/textbox/DarkTextBox.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/abstractfactory/textbox/LightTextBox.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/abstractfactory/textbox/TextBox.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/builder/EmailContent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/builder/EmailCreator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/builder/EmailFrom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/builder/EmailSubject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/builder/EmailTo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/builder/FluentEmailBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/builder/MailService$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/builder/MailService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/builder/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/factory/BonusReport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/factory/ClientReport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/factory/IncomeReport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/factory/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/factory/ProductionReport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/factory/Report.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/factory/ReportFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/memento/FileWriterCaretaker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/memento/FileWriterUtil$Memento.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/memento/FileWriterUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/memento/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/observer/Observable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/observer/Observer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/observer/ObserverTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/observer/OnlineShop.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/observer/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/prototype/Apple.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/prototype/Display.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/prototype/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/prototype/Samsung.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/prototype/SmartPhone.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/singleton/ConfigurationDoubleCheckedLocking.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/singleton/ConfigurationThreadSafe.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/singleton/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPatterns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPatterns.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/singletonExemple.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/singletonExemple.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/singletonExemple.iws" beforeDir="false" afterPath="$PROJECT_DIR$/singletonExemple.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/abstractfactory/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/creationalpatterns/abstractfactory/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/abstractfactory/DarkUIFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/abstractfactory/LightUIFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/abstractfactory/UIFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/abstractfactory/button/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/creationalpatterns/abstractfactory/button/Button.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/abstractfactory/button/DarkButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/creationalpatterns/abstractfactory/button/DarkButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/abstractfactory/button/LightButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/creationalpatterns/abstractfactory/button/LightButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/abstractfactory/textbox/DarkTextBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/creationalpatterns/abstractfactory/textbox/DarkTextBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/abstractfactory/textbox/LightTextBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/creationalpatterns/abstractfactory/textbox/LightTextBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/abstractfactory/textbox/TextBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/creationalpatterns/abstractfactory/textbox/TextBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/builder/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/creationalpatterns/builder/Email.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/builder/EmailCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/creationalpatterns/builder/EmailCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/builder/FluentEmailBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/creationalpatterns/builder/FluentEmailBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/builder/MailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/creationalpatterns/builder/MailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/builder/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/creationalpatterns/builder/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/factory/BonusReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/creationalpatterns/factory/BonusReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/factory/ClientReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/creationalpatterns/factory/ClientReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/factory/IncomeReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/creationalpatterns/factory/IncomeReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/factory/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/creationalpatterns/factory/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/factory/ProductionReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/creationalpatterns/factory/ProductionReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/factory/Report.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/creationalpatterns/factory/Report.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/factory/ReportFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/creationalpatterns/factory/ReportFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/prototype/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/creationalpatterns/prototype/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/prototype/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/creationalpatterns/prototype/Display.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/prototype/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/creationalpatterns/prototype/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/prototype/Samsung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/creationalpatterns/prototype/Samsung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/prototype/SmartPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/creationalpatterns/prototype/SmartPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/singleton/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/creationalpatterns/singleton/Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/singleton/ConfigurationDoubleCheckedLocking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/creationalpatterns/singleton/ConfigurationDoubleCheckedLocking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/singleton/ConfigurationThreadSafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/creationalpatterns/singleton/ConfigurationThreadSafe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/singleton/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/creationalpatterns/singleton/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/DesignPatterns.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/singletonExemple.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/abstractfactory/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/abstractfactory/DarkUIFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/abstractfactory/LightUIFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/abstractfactory/UIFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/abstractfactory/button/Button.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/abstractfactory/button/DarkButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/abstractfactory/button/LightButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/abstractfactory/textbox/DarkTextBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/abstractfactory/textbox/LightTextBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/abstractfactory/textbox/TextBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/builder/Email$EmailBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/builder/Email$EmailBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/builder/Email.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/builder/Email.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/builder/EmailContent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/builder/EmailCreator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/builder/EmailFrom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/builder/EmailSubject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/builder/EmailTo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/builder/FluentEmailBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/builder/MailService$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/builder/MailService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/builder/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/factory/BonusReport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/factory/ClientReport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/factory/IncomeReport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/factory/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/factory/ProductionReport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/factory/Report.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/factory/ReportFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/prototype/Apple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/prototype/Display.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/prototype/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/prototype/Samsung.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/prototype/SmartPhone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/singleton/Configuration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/creationalpatterns/singleton/Configuration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/singleton/ConfigurationDoubleCheckedLocking.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/singleton/ConfigurationThreadSafe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/singleton/Main.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,20 +183,19 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="1nqmC7KjFcMPOjtG4o2v97Vy1eJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/company" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -55,33 +212,12 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.company.Builder" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\macov\Documents\GitHub\GOF-Design-Patterns\src\main\java\com\company" />
+      <recent name="C:\Users\macov\Documents\GitHub\GOF-Design-Patterns\src\main\java\com\company\observer" />
+    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.Client">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.prototype.Client" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.prototype.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.abstractfactory.Client" />
       <module name="DesignPatterns" />
@@ -109,24 +245,11 @@
       </method>
     </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.prototype.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.company.behavioralpatterns.command.Main" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.prototype.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.builder.Main" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.builder.*" />
+          <option name="PATTERN" value="com.company.behavioralpatterns.command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +258,24 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.singleton.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.company.behavioralpatterns.memento.Main" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.singleton.Configuration" />
+          <option name="PATTERN" value="com.company.behavioralpatterns.memento.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.behavioralpatterns.mediator.Main" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.behavioralpatterns.mediator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,12 +322,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ObserverTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.behavioralpatterns.observer.ObserverTest" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.behavioralpatterns.observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YoutubeRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Observer2.YoutubeRunner" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.Observer2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -205,6 +380,7 @@
       </serviceView>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -245,6 +421,8 @@
       <workItem from="1615288935365" duration="3607000" />
       <workItem from="1615298360142" duration="734000" />
       <workItem from="1616055212624" duration="321000" />
+      <workItem from="1620820455856" duration="13296000" />
+      <workItem from="1620886201838" duration="6816000" />
     </task>
     <task id="LOCAL-00001" summary="am adaugat exemplu">
       <created>1612165688954</created>
@@ -292,25 +470,25 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="am adaugat exemplu" />
     <MESSAGE value="am adaugat doua implementari noi" />
     <MESSAGE value="I added implementation for abstract factory" />
-    <option name="LAST_COMMIT_MESSAGE" value="I added implementation for abstract factory" />
+    <MESSAGE value="I added implementation for Behavioral Patterns" />
+    <option name="LAST_COMMIT_MESSAGE" value="I added implementation for Behavioral Patterns" />
   </component>
 </project>
