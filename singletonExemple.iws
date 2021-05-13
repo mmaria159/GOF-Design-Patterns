@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50f562dd-0655-437b-b158-bca2111e896a" name="Default Changelist" comment="I added implementation for Behavioral Patterns">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/behavioralpatterns/memento2/Caretaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/behavioralpatterns/memento2/EmployeCareTaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/behavioralpatterns/memento2/EmployeMemento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/behavioralpatterns/memento2/EmployeeOriginator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/behavioralpatterns/memento2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/behavioralpatterns/memento2/Memento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/behavioralpatterns/memento2/Originator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/singletonExemple.iws" beforeDir="false" afterPath="$PROJECT_DIR$/singletonExemple.iws" afterDir="false" />
-    </list>
+    <list default="true" id="50f562dd-0655-437b-b158-bca2111e896a" name="Default Changelist" comment="I added implementation for observer an memento." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -274,7 +265,7 @@
       <workItem from="1620820455856" duration="13296000" />
       <workItem from="1620886201838" duration="8056000" />
       <workItem from="1620897205573" duration="23000" />
-      <workItem from="1620908735205" duration="1341000" />
+      <workItem from="1620908735205" duration="1671000" />
     </task>
     <task id="LOCAL-00001" summary="am adaugat exemplu">
       <created>1612165688954</created>
@@ -325,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620893070627</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="I added implementation for observer an memento.">
+      <created>1620910405696</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1620910405696</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,6 +346,7 @@
     <MESSAGE value="am adaugat doua implementari noi" />
     <MESSAGE value="I added implementation for abstract factory" />
     <MESSAGE value="I added implementation for Behavioral Patterns" />
-    <option name="LAST_COMMIT_MESSAGE" value="I added implementation for Behavioral Patterns" />
+    <MESSAGE value="I added implementation for observer an memento." />
+    <option name="LAST_COMMIT_MESSAGE" value="I added implementation for observer an memento." />
   </component>
 </project>

@@ -7,11 +7,11 @@ public class EmployeeOriginator implements Originator {
     private String city;
     private float salary;
 
-    public EmployeeOriginator(String name, int id, String dob, String city, float salary) {
+    public EmployeeOriginator(String name, int id, String birthday, String city, float salary) {
         super();
         this.name = name;
         this.id = id;
-        this.birthday = dob;
+        this.birthday = birthday;
         this.city = city;
         this.salary = salary;
     }
