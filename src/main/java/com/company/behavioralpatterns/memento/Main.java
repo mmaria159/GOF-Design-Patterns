@@ -1,29 +1,18 @@
 package com.company.behavioralpatterns.memento;
 
-public class Main {
-
+public class Main{
     public static void main(String[] args) {
-
-        FileWriterCaretaker caretaker = new FileWriterCaretaker();
-
-        FileWriterUtil fileWriter = new FileWriterUtil("data.txt");
-        fileWriter.write("First Set of Data\n");
-        System.out.println(fileWriter+"\n\n");
-
-        // lets save the file
-        caretaker.save(fileWriter);
-        //now write something else
-        fileWriter.write("Second Set of Data\n");
-
-        //checking file contents
-        System.out.println(fileWriter+"\n\n");
-
-        //lets undo to last save
-        caretaker.undo(fileWriter);
-
-        //checking file content again
-        System.out.println(fileWriter+"\n\n");
-
+        Caretaker caretaker = new EmployeCareTaker();
+        Originator originator = new EmployeeOriginator("Maria",22,"1999-02-15","Milano",80000);
+        originator.setSalary(85000);
+        System.out.println(originator);
+        caretaker.addMemento(originator.save());
+        originator.setSalary(90000);
+        System.out.println(originator);
+        caretaker.addMemento(originator.save());
+        originator.setSalary(95000);
+        System.out.println(originator);
+        originator.restore( caretaker.getMemento() );
+        System.out.println(originator);
     }
-
 }
